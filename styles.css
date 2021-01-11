@@ -1,23 +1,86 @@
 .body {
   background-color: #1ec7c8;
   color: white;
+  text-align: center;
+}
+.email-input {
+  border-radius: 20px;
+}
+
+input {
+  color: white;
+  font-size: 18px;
+  padding: 5px 70px;
+  border: solid 2px white;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+button {
+  background: #1ec7c8;
+  color: white;
+  font-size: 18px;
+  padding: 5px 70px;
+  border: solid 2px white;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  align-items: center;
+}
+
+button.hover {
+  background: #edb56c;
+  cursor: pointer;
 }
 
 li {
   list-style: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
+.features-list {
+  background-color: #e9fafa;
+}
 .features-list__image,
 .features-list__description {
   display: table-cell;
   vertical-align: top;
   box-sizing: border-box;
 }
-* {
-  box-sizing: border-box;
+.features-list__item {
+  display: table-cell;
+  width: 50%;
+  float: left;
+  margin: 1.5rem 0 0;
+  padding: 0 2.5rem;
 }
+
 .wrapper {
   margin-left: calc(10% - 10px);
   margin-right: calc(10% - 10px);
   max-width: 1210px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  color: white;
+}
+
+div {
+  display: block;
+}
+
+.testimony__inner--big {
+  padding: 4.6875rem;
+}
+
+.testimony__inner {
+  padding: 2.1875rem;
+  background-color: #1ec7c8;
+  height: 100%;
+  color: white;
 }
