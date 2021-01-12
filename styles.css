@@ -7,9 +7,9 @@
 input {
   color: white;
   font-size: 18px;
-  padding: 5px 70px;
-  border: solid 2px white;
-  border-radius: 6px;
+  padding: 5px 80px;
+  border: solid 1px white;
+  border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   align-items: center;
 }
@@ -17,19 +17,24 @@ button {
   background: #1ec7c8;
   color: white;
   font-size: 18px;
-  padding: 5px 70px;
-  border: solid 2px white;
-  border-radius: 6px;
+  padding: 5px 120px;
+  border: solid 1px white;
+  border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
   align-items: center;
 }
 
-button.hover {
+button:hover {
   background: #edb56c;
   cursor: pointer;
+  border-radius: 4px;
 }
 
+ul {
+  padding: 0;
+  margin-top: 20px;
+}
 li {
   list-style: none;
   display: list-item;
@@ -49,8 +54,27 @@ div {
   display: block;
 }
 
-img {
-  float: left;
+.suelo-logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: purple;
+}
+
+.subheading_top {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .section-header {
@@ -98,8 +122,14 @@ img {
 }
 
 .testimony__inner {
-  padding: 3.1875rem;
+  padding-top: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-left: 75px;
+  box-sizing: border-box;
+  display: block;
   background-color: #1ec7c8;
   height: 100%;
   color: white;
+  text-size-adjust: 100%;
 }
