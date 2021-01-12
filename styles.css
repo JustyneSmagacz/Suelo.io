@@ -3,9 +3,6 @@
   color: white;
   text-align: center;
 }
-.email-input {
-  border-radius: 20px;
-}
 
 input {
   color: white;
@@ -39,7 +36,45 @@ li {
   text-align: -webkit-match-parent;
 }
 
-.features-list {
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  color: #1ec7c8;
+  font-weight: bold;
+}
+
+div {
+  display: block;
+}
+
+img {
+  float: left;
+}
+
+.section-header {
+  color: #1ec7c8;
+}
+.features-list__header {
+  color: #1ec7c8;
+}
+
+.features-list__content {
+  color: #abacb2;
+  margin-bottom: 20px;
+}
+
+.testimony-row__right {
+  padding: 20px;
+  margin: auto;
+}
+
+.email-input {
+  border-radius: 20px;
+}
+
+.listed {
   background-color: #e9fafa;
 }
 .features-list__image,
@@ -62,24 +97,8 @@ li {
   max-width: 1210px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-hr {
-  color: white;
-}
-
-div {
-  display: block;
-}
-
-.testimony__inner--big {
-  padding: 4.6875rem;
-}
-
 .testimony__inner {
-  padding: 2.1875rem;
+  padding: 3.1875rem;
   background-color: #1ec7c8;
   height: 100%;
   color: white;
