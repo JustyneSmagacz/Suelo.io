@@ -1,11 +1,25 @@
-.body {
+body {
   background-color: #1ec7c8;
   color: white;
   text-align: center;
 }
 
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+p {
+  line-height: 1.5;
+}
+
 input {
-  color: white;
+  color: #abacb2;
   font-size: 18px;
   padding: 5px 80px;
   border: solid 1px white;
@@ -13,11 +27,13 @@ input {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   align-items: center;
 }
+
 button {
   background: #1ec7c8;
   color: white;
   font-size: 18px;
   padding: 5px 120px;
+  margin: 10px 10px;
   border: solid 1px white;
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -31,6 +47,16 @@ button:hover {
   border-radius: 4px;
 }
 
+.hero_image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.opinions-box_name {
+  margin-bottom: 50px;
+}
+
 ul {
   padding: 0;
   margin-top: 20px;
@@ -39,10 +65,8 @@ li {
   list-style: none;
   display: list-item;
   text-align: -webkit-match-parent;
-}
-
-* {
   box-sizing: border-box;
+  background-color: #e9fafa;
 }
 
 hr {
@@ -50,86 +74,41 @@ hr {
   font-weight: bold;
 }
 
-div {
-  display: block;
-}
-
-.suelo-logo {
+.suelo_logo {
   display: block;
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: purple;
+  margin-top: -10px;
+  max-width: 20%;
 }
 
 .subheading_top {
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-size: 15px;
-}
-
-.section-header {
+.features-list_header {
   color: #1ec7c8;
-}
-.features-list__header {
-  color: #1ec7c8;
+  line-height: 2;
 }
 
-.features-list__content {
+.features-list_content {
   color: #abacb2;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
-.testimony-row__right {
-  padding: 20px;
-  margin: auto;
-}
-
-.email-input {
-  border-radius: 20px;
-}
-
-.listed {
-  background-color: #e9fafa;
-}
-.features-list__image,
-.features-list__description {
+.features-list_image,
+.features-list_description {
   display: table-cell;
   vertical-align: top;
   box-sizing: border-box;
 }
-.features-list__item {
+.features-list_item {
   display: table-cell;
   width: 50%;
   float: left;
-  margin: 1.5rem 0 0;
-  padding: 0 2.5rem;
 }
 
-.wrapper {
-  margin-left: calc(10% - 10px);
-  margin-right: calc(10% - 10px);
-  max-width: 1210px;
-}
-
-.testimony__inner {
-  padding-top: 75px;
-  padding-right: 75px;
-  padding-bottom: 75px;
-  padding-left: 75px;
-  box-sizing: border-box;
-  display: block;
-  background-color: #1ec7c8;
-  height: 100%;
-  color: white;
-  text-size-adjust: 100%;
+.testimony_image {
+  float: left;
+  margin: 0 auto;
 }
