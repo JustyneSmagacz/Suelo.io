@@ -14,8 +14,14 @@ h2 {
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 0.2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
+h3 {
+  font-weight: lighter;
+  font-size: 26px;
+}
 p {
   line-height: 1.5;
   font-weight: lighter;
@@ -68,8 +74,6 @@ ul {
 li {
   list-style: none;
   display: list-item;
-  text-align: -webkit-match-parent;
-  box-sizing: border-box;
   background-color: #e9fafa;
 }
 
@@ -86,9 +90,9 @@ hr {
   max-width: 20%;
 }
 
-.subheading_top {
-  margin-top: 20px;
-  margin-bottom: 0;
+.features_wrapper {
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .features-list_header {
@@ -100,31 +104,43 @@ hr {
   margin-bottom: 100px;
 }
 
-.features-list_description {
-  display: table-cell;
-  box-sizing: border-box;
-}
 .features-list_item {
   display: table-cell;
   width: 50%;
   float: left;
+  margin: 1.5rem 0 0;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
 }
 
-.testimony_image {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  box-sizing: border-box;
-  display: block;
-  width: 75%;
+.core_wrapper {
+  background-color: #e9fafa;
+}
+
+.opinions_wrapper {
+  border: solid 1px #1ec7c8;
+  padding: 0px 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
 }
 
 .testimony_right {
-  padding: 4.6875rem;
-  box-sizing: border-box;
-  display: block;
-  font-size: 1em;
+  border: solid 1px white;
+  padding: 0px 40px;
+  margin-left: 600px;
+  margin-right: 0px;
+  margin-top: 0px;
+  background-color: #1ec7c8;
+}
+
+.testimony-wrapper {
+  border: 11px solid red;
+}
+
+.testimony_image img {
+  width: 50%;
+  background-color: #1ec7c8;
 }
 
 .main-footer_middle {
@@ -133,4 +149,11 @@ hr {
 .bottom_logo {
   max-width: 20%;
   float: left;
+}
+
+.bottom_call-to-action_wrapper {
+  border: solid 1px #e9fafa;
+  padding: 20px;
+  margin: 40px;
+  background-color: #1ec7c8;
 }
