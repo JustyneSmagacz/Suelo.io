@@ -18,7 +18,10 @@
 </head>
 
 <body class="body">
-        <img src="images/Suelo_White 72dpi.png" alt="suelo logo" class="suelo_logo">
+    <nav>
+        <img src="images/Suelo_White 72dpi.png" alt="suelo logo" class="suelo_logo" href="https://suelo.io" />
+    </nav>
+        
         <h2 class="subheading_top">All  startups  start here</h2>
         <h1>
             Totally organised feedback
@@ -27,9 +30,10 @@
             <div>Suelo is the easiest place to collect, manage and present all product feedback.</div>
             <div>Pre-registered now to use Suelo for a whole year for FREE!</div>
         </p>
-
-        <input id="email_input" placeholder="Enter email address" type="text" autofocus="on" autocomplete="off">
-        <button> Pre-registered </button>
+<form>
+        <input id="email_input" ype="email" placeholder="Enter email address" t autofocus="on" autocomplete="off">
+        <button type="submit">Pre-registered</button>
+</form>
         <br />
         <img class="hero_image" src="https://www.shedul.com/images/Shedul-best-Salon-software-platform-b2a8666d.jpg" alt="product preview" width="75%">
 
@@ -39,11 +43,12 @@
             software. I have been using Suelo for the last month now and have found it incredible."</div>
         </p>
         <p class="opinions-box_name">
-            <div><strong>Alexander Kemp</strong></div>
+            <div><h2>Alexander Kemp</h2></div>
             <em>Sittee.co.uk</em>
         </p>
      
         <section class="features-list">
+            <div class="features_wrapper">
                 <ul>
                     <li class="features-list_item">
                         <div class="features-list_image">
@@ -148,15 +153,16 @@
                         </div>
                     </li>
                 </ul>
+            </div>
         </section>
 
         <section>
             <div class="testimony">
                 <div class="testimony_image">
-                    <img src="images/suelo_client.jpg" alt="user of best feature request tracking software" width="50%">
+                    <img class="testimony_image" src="images/suelo_client.jpg" alt="user of best feature request tracking software">
                 </div>
-                <div class="testimony_text">
-                    <h1>
+                <div class="testimony_right">
+                    <h1 class="testimony_text">
                             "We started using the beta version of Suelo from day one. It keeps our clients happy and
                             we'd be lost without it"
                     </h1>
@@ -170,17 +176,25 @@
                 </div>
             </div>
         </section>
+                <section>
+                    <p>
+                        Suelo is the easiest place to collect, manage and present all product feedback.
+                        Pre-registered now to use Suelo for a whole year for FREE!
+                    </p>
+                    <input id="email-input" placeholder="Enter email address" type="text" autofocus="off" autocomplete="off">
+                    <button> Pre-registered </button>
+                </section>
 
-        <section>
-            <p>
-                Suelo is the easiest place to collect, manage and present all product feedback.
-                Pre-registered now to use Suelo for a whole year for FREE!
-            </p>
-            <input id="email-input" placeholder="Enter email address" type="text" autofocus="off" autocomplete="off">
-            <button> Pre-registered </button>
-        </section>
+
+        <footer class='main-footer'>
+                    <div class='main-footer_left'>
+                        <img class="bottom_logo" src="images/Suelo_White 72dpi.png" class="main-footer__logo" alt="Suelo.io Software logo" href="https://suelo.io"/>
+                    </div>
+                    <div class='main-footer_middle'>
+                        © 2021 Smelly Ventures Inc.
+                    </div>
+        </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
