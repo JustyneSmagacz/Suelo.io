@@ -96,25 +96,21 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .container1,
-  .container2,
-  .container3 {
+  .box-container {
     display: flex;
     justify-content: center;
     flex-basis: 35%;
   }
 
-  .container1 div,
-  .container2 div,
-  .container3 div {
+  .box-container div {
     justify-content: space-between;
     padding: 30px 40px 30px 40px;
   }
-}
 
-.container4 {
-  display: flex;
-  align-items: center;
+  .container4 {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .testimony_image img {
