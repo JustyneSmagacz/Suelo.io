@@ -67,7 +67,9 @@ button:hover {
 }
 
 hr {
-  border-color: #1ec7c8;
+  height: 2px;
+  background-color: #1ec7c8;
+  border: none;
 }
 
 .suelo_logo {
@@ -109,12 +111,13 @@ hr {
 }
 
 .container4 {
-  background-color: #1ec7c8;
   display: flex;
+  align-items: center;
 }
 
 .testimony_image img {
   width: 100%;
+  min-width: 300px;
 }
 
 .opinion_wrapper {
