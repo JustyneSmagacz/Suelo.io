@@ -70,6 +70,7 @@ hr {
   height: 2px;
   background-color: #1ec7c8;
   border: none;
+  padding: 0px 10px;
 }
 
 .suelo_logo {
@@ -85,7 +86,8 @@ hr {
 
 .features-list_content {
   color: #abacb2;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  padding: 11%;
 }
 
 .container {
@@ -133,7 +135,7 @@ hr {
   float: left;
 }
 
-.bottom_call-to-action_wrapper {
+.footer_call-to-action {
   border: solid 1px #e9fafa;
   padding: 20px;
   margin: 60px;
