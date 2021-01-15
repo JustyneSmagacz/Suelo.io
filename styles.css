@@ -62,25 +62,12 @@ button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.opinions-box_name {
+.opinion_name {
   margin-bottom: 50px;
 }
 
-ul {
-  padding: 0;
-  margin-top: 20px;
-  margin-left: 0;
-}
-li {
-  list-style: none;
-  display: list-item;
-  background-color: #e9fafa;
-}
-
 hr {
-  color: #1ec7c8;
-  border-width: 1px;
-  display: block;
+  border-color: #1ec7c8;
 }
 
 .suelo_logo {
@@ -88,11 +75,6 @@ hr {
   margin: 0 auto;
   top: -15px;
   max-width: 20%;
-}
-
-.features_wrapper {
-  margin-left: 150px;
-  margin-right: 150px;
 }
 
 .features-list_header {
@@ -104,20 +86,38 @@ hr {
   margin-bottom: 100px;
 }
 
-.features-list_item {
-  display: table-cell;
-  width: 50%;
-  float: left;
-  margin: 1.5rem 0 0;
-  padding: 0 2.5rem;
-  box-sizing: border-box;
-}
-
-.core_wrapper {
+.container {
   background-color: #e9fafa;
+  padding: 10px;
 }
 
-.opinions_wrapper {
+@media (min-width: 768px) {
+  .container1,
+  .container2,
+  .container3 {
+    display: flex;
+    justify-content: center;
+    flex-basis: 35%;
+  }
+
+  .container1 div,
+  .container2 div,
+  .container3 div {
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+  }
+}
+
+.container4 {
+  background-color: #1ec7c8;
+  display: flex;
+}
+
+.testimony_image img {
+  width: 100%;
+}
+
+.opinion_wrapper {
   border: solid 1px #1ec7c8;
   padding: 0px 40px;
   margin-left: 20px;
@@ -125,27 +125,6 @@ hr {
   margin-top: 0px;
 }
 
-.testimony_right {
-  border: solid 1px white;
-  padding: 0px 40px;
-  margin-left: 600px;
-  margin-right: 0px;
-  margin-top: 0px;
-  background-color: #1ec7c8;
-}
-
-.testimony-wrapper {
-  border: 11px solid red;
-}
-
-.testimony_image img {
-  width: 50%;
-  background-color: #1ec7c8;
-}
-
-.main-footer_middle {
-  text-align: center;
-}
 .bottom_logo {
   max-width: 20%;
   float: left;
@@ -154,6 +133,11 @@ hr {
 .bottom_call-to-action_wrapper {
   border: solid 1px #e9fafa;
   padding: 20px;
-  margin: 40px;
+  margin: 60px;
   background-color: #1ec7c8;
+}
+
+.main-footer_middle {
+  text-align: center;
+  display: block;
 }
